@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <listeners>
+        <listener class-name="testng.rerunfailscript.IAnnotationTrans">
+
+        </listener>
+    </listeners>
+<!--    <parameter name="CourseName" value="java"/>
+    <parameter name="CityName" value="pune"/>
+    <parameter name="browserName" value="edge"/>
+
+       <groups>
+           <run>
+               <include name="smoke"/>
+               <include name="sanity"/>
+           </run>
+       </groups>-->
+
+    <test verbose="2" preserve-order="true" parallel="false" thread-count="2" name="C:/Users/Saish/IdeaProjects/Maven_TestNG_4june2024">
+        <classes>
+
+
+            <class name="testng.rerunfailscript.FailScriptExample"/>
+
+        </classes>
+    </test>
+</suite>
+
